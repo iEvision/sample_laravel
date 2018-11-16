@@ -8530,6 +8530,8 @@ footer {
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
+  /* Users edit */
+  /* Users index */
 }
 
 footer a {
@@ -8562,5 +8564,33 @@ footer img.brand-icon {
 footer .slogon {
   font-size: 13px;
   font-weight: bold;
+}
+
+footer .gravatar_edit {
+  margin: 15px auto;
+  text-align: center;
+}
+
+footer .gravatar_edit .gravatar {
+  float: none;
+  max-width: 100px;
+}
+
+footer .users {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+footer .users li {
+  overflow: auto;
+  padding: 10px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+
+footer .delete-btn {
+  float: right;
+  position: relative;
+  right: 0;
 }
 
